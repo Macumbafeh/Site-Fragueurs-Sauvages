@@ -1,0 +1,380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<title>Les Fragueurs Sauvages - Calculateur de points d'arene</title>
+
+<meta NAME="Description" Content="Calculez vos points d'arène avec le Calculateur de points d'arène.">
+
+<link rel="stylesheet" type="text/css" media="screen" href="style/wow.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="style/wow_css.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="style/menu.css" />
+<link rel="stylesheet" href="menu2.css">
+<link rel="shortcut icon" href="images/14532-Ellipsis-LogoWoW_vista.ico"/>
+
+<script type="text/javascript">
+// JavaScript Document
+var last_rating_to_points_2v2_value = 1500;
+var last_rating_to_points_3v3_value = 1500;
+var last_rating_to_points_5v5_value = 1500;
+var last_points_to_rating_value = 500;
+
+
+function calculatePointsFromRating(aRating, percentage) {
+    if (aRating <= 1500) 
+    {
+        aPoints = percentage * (0.22 * aRating + 14);
+        if (aPoints <= 0) 
+            return 0;
+        else
+            return Math.floor(aPoints);
+    }
+    else
+    {
+        aPoints = percentage * (1511.26 / ( 1 + 1639.28 * Math.pow(2.71828, -0.00412 * aRating)));
+        return Math.floor(aPoints);
+    }
+}
+
+function calculateRatingFromPoints(aPoints, percentage) {
+    aRating = Math.ceil(Math.log((1511.26 / (1639.28 * aPoints / percentage)) - ( 1 / 1639.28)) / ( -0.00412 ));
+    if (aRating <= 1500) {
+        aRating = ((aPoints / percentage)-14)/0.22;
+        return aRating;
+    }else{
+        return aRating;
+    }
+}
+
+function calculateArenaPoints() 
+{
+    value = document.getElementById('rating_to_points_2v2').value;
+    aRating = parseInt(value, 10);
+    if ((aRating > 0) && (aRating <= 4000))
+      document.getElementById('arenapoints_2v2').value = calculatePointsFromRating(aRating, 0.76);
+    else
+      document.getElementById('arenapoints_2v2').value = 'Mauvaise Valeur';
+
+    value = document.getElementById('rating_to_points_3v3').value;
+    aRating = parseInt(value, 10);
+    if ((aRating > 0) && (aRating <= 4000))
+      document.getElementById('arenapoints_3v3').value = calculatePointsFromRating(aRating, 0.88);
+    else
+      document.getElementById('arenapoints_3v3').value = 'Mauvaise Valeur';
+    
+    value = document.getElementById('rating_to_points_5v5').value;
+    aRating = parseInt(value, 10);
+    if ((aRating > 0) && (aRating <= 4000))
+      document.getElementById('arenapoints_5v5').value = calculatePointsFromRating(aRating, 1);
+    else
+      document.getElementById('arenapoints_5v5').value = 'Mauvaise Valeur';
+}
+
+function calculateArenaRating() {
+    value = document.getElementById('points_to_rating').value;
+    aPoints = parseInt(value, 10);
+    
+    aRating = calculateRatingFromPoints(aPoints, 0.76);
+    if (aRating > 0 && aRating < 4000) {
+        document.getElementById('arenarating_2v2').value = aRating;
+    }else{
+        document.getElementById('arenarating_2v2').value = 'Impossible';
+    }
+
+    aRating = calculateRatingFromPoints(aPoints, 0.88);
+    if (aRating > 0 && aRating < 4000) {
+        document.getElementById('arenarating_3v3').value = aRating;
+    }else{
+        document.getElementById('arenarating_3v3').value = 'Impossible';
+    }
+
+    aRating = calculateRatingFromPoints(aPoints, 1);
+    if (aRating > 0 && aRating < 4000) {
+        document.getElementById('arenarating_5v5').value = aRating;
+    }else{
+        document.getElementById('arenarating_5v5').value = 'Impossible';
+    }
+}
+
+
+function calculateArenaPointsGoal(bracket) 
+{
+    switch(bracket)
+    {
+        case 1 : 
+            value = document.getElementById('goal_points_2v2').value;
+            aRating = parseInt(value, 10);
+            if ((aRating > 0) && (aRating <= 4000))
+                document.getElementById('goal_result_points_2v2').value = calculatePointsFromRating(aRating, 0.76);
+            else
+                document.getElementById('goal_result_points_2v2').value = '0';
+        break;
+        case 2:
+
+            value = document.getElementById('goal_points_3v3').value;
+            aRating = parseInt(value, 10);
+            if ((aRating > 0) && (aRating <= 4000))
+                document.getElementById('goal_result_points_3v3').value = calculatePointsFromRating(aRating, 0.88);
+            else
+                document.getElementById('goal_result_points_3v3').value = '0';
+        break;
+        case 3:
+            value = document.getElementById('goal_points_5v5').value;
+            aRating = parseInt(value, 10);
+            if ((aRating > 0) && (aRating <= 4000))
+                document.getElementById('goal_result_points_5v5').value = calculatePointsFromRating(aRating, 1);
+            else
+                document.getElementById('goal_result_points_5v5').value = '0';
+        break;
+    }
+}
+
+function calculateWeeks()
+{
+    desiredPoints = parseInt(document.getElementById('goal_desiredPoints').value, 10);
+    currentPoints = parseInt(document.getElementById('goal_result_currentpoints').value, 10); 
+    
+    value1 = parseInt(document.getElementById('goal_result_points_2v2').value, 10);
+    value2 = parseInt(document.getElementById('goal_result_points_3v3').value, 10);
+    value3 = parseInt(document.getElementById('goal_result_points_5v5').value, 10);
+    pointPerWeek = Math.max(Math.max(value1, value2), value3);
+    result = (desiredPoints - currentPoints) / pointPerWeek; 
+    weeks = Math.ceil(result);
+    if (weeks > -1)
+    {
+        document.getElementById('goal_result_weeks').value = weeks;
+        document.getElementById('goal_result_points_left').value = (weeks * pointPerWeek) + currentPoints - desiredPoints;
+    }
+    
+    
+    
+}
+</script>
+
+</head>
+
+<body>
+
+<nav>
+		<ul><!--		
+			--><li><a href="index.html">Accueil<!-- présentation de la guilde et activités et liste des membres--></a></li><!--
+			--><li><a href="#">La guilde<!--Règlement et comment nous rejoindre et les grades--></a>
+					<ul class="submenu3"><!--
+						--><li><a href="la_guilde-presentation.html">Présentation</a></li><!--
+						--><li><a href="la_guilde-nosactivites.html">Nos activités</a></li><!--
+						--><li><a href="la_guilde-lesmembres.html">Les membres</a></li><!--
+						--><li><a href="la_guilde-grade_les_fragueurs_sauvages.html">Les grades</a></li><!--
+						--><li><a href="la_guilde-nousrejoindre.html">Nous rejoindre</a></li><!--
+					--></ul>
+				</li>
+				<li><a href="#">Guides</a>
+					<ul class="submenu3"><!--
+						--><li><a href="guides-lesmetiers.html">Les métiers</a></li><!--
+						--><li><a href="guides-lesclasses.html">Les classes</a></li><!--
+						--><li><a href="guides-lesbgs.html">Les bgs</a></li><!--
+						--><li><a href="guides-lesarenes.html">Compos arène</a></li><!--
+						--><li><a href="guides-lexiquewow.html">Lexique wow</a></li><!--
+						
+						--></ul>
+				</li>
+				<li><a href="http://lesfragueurssauvages.forumprod.com">Forum<!--forum avec salon--></a></li><!--
+			--><li><a href="#">Médias</a>
+					<ul class="submenu3"><!--
+						--><li><a href="medias-capturedecran.html">Captures d'écran</a></li><!--
+						--><li><a href="medias-videos.html">Vidéos</a></li><!--
+					--></ul>
+				</li>
+					
+				<li><a href="#">Outils</a>
+					<ul class="submenu4"><!--
+						--><li><a href="https://www.thegeekcrusade-serveur.com/template/">Simulateur de talents</a></li><!--
+						--><li><a href="outils-calculateur.html">Calculateur de points d'arènes</a></li><!--
+						--><li><a href="https://forums.wowmania.fr/index.php?page=Thread&threadID=18216">Add-ons</a></li>
+					</ul>
+				</li>
+			
+		</ul>
+		
+</nav>
+
+<center>
+<div id="brd-head" class="gen-content">
+	<!--[if !IE]> <--> <p id="brd-title"><a href="outils-calculateur.html"><img src="images/horde_banner.png" style="border:none;" alt="Site de la guilde Les Fragueurs Sauvages"/></a></p> <!--> <![endif]-->
+	
+	
+</div>
+
+</center>
+
+<div align="center">
+    <script type="text/javascript">
+</script>
+</div>
+</td>
+</tr>
+<div class="gen-content" id="cen_ar">
+<tr><td class="XSP_MAIN_PANEL"><p align="center"><strong><span style="FONT-SIZE: 18pt">Calculateur de points d'arène</span></strong></p>
+
+<center>
+    <table style=
+    "BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 2px solid; PADDING-LEFT: 0px; WIDTH: 555px; BORDER-COLLAPSE: collapse; HEIGHT: 111px; BORDER-TOP: black 2px solid; BORDER-RIGHT: black 2px solid"
+           border="0"
+           cellspacing="0"
+           bordercolor="#000000"
+           cellpadding="2"
+           width="550"
+           bgcolor="#9B9B9B">
+        <tbody>
+            <tr>
+                <th style="BACKGROUND-COLOR: #9B9B9B"></th>
+
+                <th>
+                    <p align="center"><span style=
+                    "FONT-SIZE: 14pt">Cote d'Arène</span></p>
+                </th>
+
+                <th></th>
+
+                <th></th>
+
+                <th><span style="FONT-SIZE: 14pt">Points d'Arène</span></th>
+            </tr>
+
+            <tr>
+                <td style="LINE-HEIGHT: 20px"
+                    width="50"
+                    align="center">2v2 : 3v3 : 5v5 :</td>
+
+                <td width="150"
+                    align="center"><input id=
+                    "rating_to_points_2v2"
+                       name="rating_to_points_2v2"> <input id=
+                       "rating_to_points_3v3"
+                       name="rating_to_points_3v3"> <input id=
+                       "rating_to_points_5v5"
+                       name="rating_to_points_5v5"></td>
+
+                <td style="TEXT-ALIGN: center"
+                    width="150"><input value="Calculer"
+                       type="button"
+                       onclick="calculateArenaPoints();"></td>
+
+                <td style="LINE-HEIGHT: 20px"
+                    width="50"
+                    align="center">2v2 : 3v3 : 5v5 :</td>
+
+                <td width="150"
+                    align="center"><input style=
+                    "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenapoints_2v2"
+                       readonly
+                       name="arenapoints_2v2"><input style=
+                       "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenapoints_3v3"
+                       readonly
+                       name="arenapoints_3v3"><input style=
+                       "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenapoints_5v5"
+                       readonly
+                       name="arenapoints_5v5"></td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+
+<center>
+    &nbsp;
+</center>
+
+<center>
+    <span style="FONT-SIZE: 18pt"><strong>Calculateur de cote d'arène</strong></span>
+</center>
+
+<center>
+    &nbsp;
+</center>
+
+<center>
+    <table style=
+    "BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 2px solid; PADDING-LEFT: 0px; WIDTH: 537px; BORDER-COLLAPSE: collapse; HEIGHT: 102px; BORDER-TOP: black 2px solid; BORDER-RIGHT: black 2px solid"
+           border="0"
+           cellspacing="0"
+           bordercolor="#000000"
+           cellpadding="2"
+           width="537"
+           bgcolor="#9B9B9B">
+        <tbody>
+            <tr>
+                <th><span style="FONT-SIZE: 14pt">Points d'Arène</span></th>
+
+                <th></th>
+
+                <th></th>
+
+                <th><span style="FONT-SIZE: 14pt">Cote d'arène</span></th>
+            </tr>
+
+            <tr>
+                <td width="150"
+                    align="center"><input id="points_to_rating"
+                       name="points_to_rating">&nbsp;</td>
+
+                <td style="TEXT-ALIGN: center"
+                    width="150"><input value="Calculer"
+                       type="button"
+                       onclick="calculateArenaRating();"></td>
+
+                <td style="LINE-HEIGHT: 20px"
+                    width="50"
+                    align="center">2v2 : 3v3 : 5v5 :</td>
+
+                <td width="150"
+                    align="center"><input style=
+                    "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenarating_2v2"
+                       readonly
+                       name="arenarating_2v2"><input style=
+                       "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenarating_3v3"
+                       readonly
+                       name="arenarating_3v3"><input style=
+                       "BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BACKGROUND-COLOR: #ebebe4; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid"
+                       id="arenarating_5v5"
+                       readonly
+                       name="arenarating_5v5"></td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</div>
+<center>
+<div id="brd-wrap" class="brd">
+<div id="brd-application" class="brd-page basic-page">
+<div class="main-head" id="tet_app">
+Calculateur de points d'ar&egrave;ne
+</div>
+<div class="gen-content" id="cen_ar">
+	<center>
+	Voici ci-dessus le Calculateur de points d'ar&egrave;ne et le Calculateur de cote d'ar&egrave;ne.<br style="display:block" />
+	Vous pouvez savoir Combien de points vous rapportera une cote d'ar&egrave;ne ou encore combien de cote est requis pour avoir un certains nombre de points d'ar&egrave;ne.<br style="display:block" />
+	</center>
+	<div style="margin-top: 30px;">
+		<form method="get" id="center">
+			<label for="valeur">Inscrivez la Cote ou le nombre de points d'ar&egrave;ne sur la zone de texte a gauche </label>
+		</form>
+	</div>
+
+
+</center>
+
+<script language="javascript" type="text/javascript">
+<!--
+document.getElementById("XSP_LEFT_PANEL_SPC").innerHTML = document.getElementById("XSP_LEFT_PANEL").innerHTML;
+document.getElementById("XSP_LEFT_PANEL").innerHTML = "&nbsp;";
+//-->
+</script>
+
+</body>
+
+

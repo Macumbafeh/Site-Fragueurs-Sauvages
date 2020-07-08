@@ -1,0 +1,50 @@
+Full vert bleu allopasse : set  5x1 + hors set 6x1 + arme 2 : 13 points
+
+full s0 vert bleu : set 5x2 + hors set 6x1 + arme vert bleu 2 : 18 points.
+
+deux piece s0 et trinket : 2x2 + 3x1 + hors set 6x1 + 10 trinket + 2 armes : 25
+
+full s0 et trinket : 5x2 + hors set 6x1 + 10 + 2 armes : 28
+
+deux piece s0 bleu vert arme s2 trinket : 2x2 + 3x1 + 6x1 + 10 + 6 : 29
+
+full s0 arme s2 trinket : 5x2 + 6x1 + 10 + 6 : 32
+
+deux s0 trinket armes s2et hors set s4 : set 2x2 + 3x1 + hors set 5x1 + 4x1 + 10 + 6 : 32
+
+deux s0 un s4 un s2, deux hors set s4 trinket arme s2 : set 2x2 + 1x5 + 1x3 + hors set 4x2 + 4x1 + 10 + 6 : 40 points.
+
+set deux s2, un s4, deux s0, hors set trois hors set s4 trinket arme s2 : set 3x2 + 1x5 + 2x2 + hors set 4x3 + 3x1 + 10 + 6 : 46 points
+
+2/5 s4 et 3/5 s2 3 hors set s4 : set 2x5 + 3x3 + hors set 4x3 + 2x1 + 1x3 + 10 + armes 6 : 52
+
+3/5 s4 s3 : set 3x5 + 1x4 + 1x3 + hors set 4x4 + 2x2 + 10 + armes 6 : 58
+4/5 s4 : set 5x4 + 1x3 + hors set 4x4 + 4 + armes 6 + 10 : 61
+
+Full s4 : 5x5 + 5x4 + 2 + armes 8 + 10 trinket : 65
+
+
+4 s0 et un s4 hors set trois bleu deux pve hl, un s4 arme s2 et pve hl trinket :
+2x4 + 5 + 3x1 + 3x2 + 4 + 6 + 5 + 10 = 47
+
+4 s2 1 s4 hors set 3 s3 1 s4 1 pve HL 1 bleu trinket arme s2 deux main : 
+3x4 + 5 + 2x3 + 4 + 3 + 1 + 10 + 6 : 47
+
+1 s4 3 s2 1 s0 hors set 6 bleu vert, trinket arme s2 boubou, arme bleu :
+5 + 3x3 + 2 + 6 + 10 + 3 + 1 : 
+
+
+2 s4 et un s2 tete 2 pve HL, hors set 5 pve HL et 1 s4, trinket, arme s3 deux mains. :
+5x2 + 3 + 2 + 5x2 + 4 + 10 + 7 :46
+
+
+4 s2 1 s4 hors set 2 bleu 4 s4 trinket arme deux main s2 :
+4x3 + 5 + 2 + 4x4 + 6 + 10 =
+
+2 s0 2 bleu 1 s2 hors set 4 bleu vert 1 s4 1 s3 arme deux main bleu :
+4 + 2 + 3 + 4 + 4 + 2 + 4 = 23 points + 10 = 33 points trinket de Tholax
+5 s2 + hors set 4 s3 + 1 s4 + un bleu + trinket + arme deux main s2 :
+3x5 + 4x2+ 4 + 1 + 10 + 6 =
+
+3 s2 1 vert 1 s0 + hors set 5 vert + 1 s4 + arme vert :
+3x3 + 1 + 4 + 5 + 2 = 21

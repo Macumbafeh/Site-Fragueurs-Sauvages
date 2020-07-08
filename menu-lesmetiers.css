@@ -1,0 +1,166 @@
+﻿html {
+	height: 100%;
+}
+
+	
+body{
+	position:relative;
+	padding:0 0;
+	margin:0 0;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+	background:url(images/979712illidan2.jpg) center no-repeat;
+	background-size:cover; opacity:1;z-index:-1;min-height: 100%;
+	background-attachment:fixed;
+	
+}
+
+
+.image1 {
+	
+    position: relative;
+	border:0px solid teal;
+	padding:0 0;
+	width:23%;
+	height: 100px;
+	margin:0px 0;
+	border:0px solid orange;
+	
+}
+
+.image1 img {
+	position: absolute;
+    margin:auto 35px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    max-width: 120px;
+	padding:0;
+	border:0px solid orange;
+}
+
+
+
+.image1 h5 {
+	position:absolute;
+	text-align:left;
+	color:gold;
+	word-wrap: break-word;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	list-style-type: none;
+	text-decoration:none;
+	margin:auto 20px;
+	padding:0 0;
+}
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.9;
+	box-sizing: border-box;
+	}
+
+p {
+	text-align:center;
+	color:white;
+	word-wrap: break-word;
+}	
+
+dl, dd {
+	color:white;
+}
+
+dt {
+	color:red;
+}
+
+header li {
+	color:white;
+	text-align:left;
+}
+
+header a img {
+	width:50px;
+	height:50px;
+	padding:5px;
+	margin:5px;
+}
+
+
+
+h1{
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	padding: auto;
+	margin:auto 35px;
+	word-spacing:10px;
+	font-size:40px;
+}
+
+h2 {
+	color:green;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	padding: auto;
+	margin:auto 35px;
+	word-spacing:5px;
+	font-size:25px;
+	
+}
+
+h4 {
+	color:teal;
+	text-align:center;
+	font-size:20px;
+	
+}
+
+.news {
+	padding:20px;
+	width:550px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	}
+	
+.titre1 p {
+	color:orange;
+	text-align:center;
+	
+	}
+	
+.titre1 p {
+	color:orange;
+}
+header {
+	float:middle;
+	text-align:center;
+	padding:0;
+	margin:50px auto;
+	border:0px solid green;
+	width:100%;
+	border-style:double;
+	
+	
+}
+
+.titre3{
+	text-align:left;
+	padding:0px;
+	width:100%;
+	border: 0px solid #1F1F1F;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+}

@@ -1,0 +1,229 @@
+﻿
+
+/*header { 
+	background-image: url(http://img11.hostingpics.net/pics/766172logogif.gif); 
+	background-repeat: no-repeat; 194067_full.jpg no-repeat;
+	background-size:cover;
+	}*/
+
+html {
+	height: 100%;
+}
+
+	
+body{
+	position:relative;
+	background:grey;
+	padding:0 0;
+	margin:0 0;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+	min-height: 100%;
+	
+}
+
+
+/*color:#AAFFAA;*/
+
+.sommaire {
+	text-align:center;
+	border:0px solid white;
+	text-shadow:3px 2px 4px black;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+
+
+.sommaire li {
+	text-align:center;
+	color:teal;
+	border:0px solid white;
+	padding:10px;
+	margin:10px;
+	list-style-type: none;
+	
+}
+
+.sommaire li a {
+	text-decoration: none;
+	color:inherit;
+}
+
+.sommaire a:link {color: teal;}
+.sommaire a:visited {color: teal;}
+.sommaire a:hover {color: gold;}
+.sommaire a:active {color: olive;} 
+
+.entete {
+	background:url(images/952318ENTETE.jpg) no-repeat center;
+	background-size:cover;
+	border:0px solid red;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+h1, h2 {
+	color:orange;
+	text-shadow:3px 2px 4px black;
+
+}
+
+h1{
+	text-align:center;
+	word-spacing:10px;
+	font-weight:bold;
+	font-size:50;
+}
+
+h2{
+	text-align:center;
+	padding:0;
+	margin:0;
+	word-spacing:3px;
+	white-space: nowrap;
+	min-width:75%;
+	
+}
+
+p{
+	
+	text-align:center;
+	color:white;
+	word-wrap: break-word;
+}
+
+
+.titre2 {
+	padding:10px;
+	width:70%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	}
+	
+.titre2 p {
+	text-align:justify;
+}
+
+.titre2 li {
+	color:white;
+}
+
+
+
+h3 {
+	color:green;
+}	
+
+.buff {
+	background:url(images/32299-world-of-warcraft-the-horde-horde-battleground-entrance-wallpaper.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.speed img {
+	margin:-10px auto;
+	
+    padding:0px auto;
+	border:1px solid orange;
+}
+.warsong {
+	background:url(images/wsg.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.arathi {
+	background:url(images/arathi_basin_large.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.cyclone {
+	background:url(images/eye-of-the-storm-1.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.alterac {
+	background:url(images/av.jpg) no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+.pageancre {
+	text-align:right;
+}
+
+.pageancre img {
+	margin:-10px auto;
+	
+    padding:0px auto;
+	border:0px solid orange;
+}
+
+mark {
+  background-color: maroon;
+  color: white;
+}
+
+header a:link {color: gold;}
+header a:visited {color: gold;}
+header a:hover {color: teal;}
+header a:active {color: olive;} 
+
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.9;
+	box-sizing: border-box;
+	}
+
+.titre3{
+	text-align:left;
+	padding:0px;
+	width:100%;
+	border: 0px solid #1F1F1F;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+}
+
+/*
+#bordure .w1 {
+	background-image:url(http://img15.hostingpics.net/pics/39028132299worldofwarcraftthehordehordebattlegroundentrancewallpaper.jpg) no-repeat bottom left,url(features.png) no-repeat top left #0f130e;
+	overflow:hidden;
+	padding:100px 0;
+	background-size: cover;	
+}
+*/

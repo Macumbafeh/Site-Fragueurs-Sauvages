@@ -1,0 +1,142 @@
+﻿html {
+	height: 100%;
+}
+
+	
+body{
+	position:relative;
+	background:url(images/194067_full.jpg) 0 0 no-repeat;
+	background-size:cover; opacity:0.9;z-index:-1; padding:0 0;
+	margin:0 0;
+	background-attachment:fixed; min-height: 100%;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+}
+
+
+
+
+.image1 {
+	
+    position: relative;
+	border:0px solid teal;
+	padding:0 0;
+	width:23%;
+	height: 100px;
+	margin:0px 0;
+	border:0px solid orange;
+	
+}
+
+.image1 img {
+	position: absolute;
+    margin:auto 35px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    max-width: 120px;
+	padding:0;
+	border:0px solid orange;
+}
+
+
+
+.image1 h5 {
+	position:absolute;
+	text-align:left;
+	color:gold;
+	word-wrap: break-word;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	list-style-type: none;
+	text-decoration:none;
+	margin:auto 20px;
+	padding:0 0;
+}
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.9;
+	box-sizing: border-box;
+	}
+
+a {
+		list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+	
+p {
+	text-align:center;
+	color:gold;
+	word-wrap: break-word;
+}	
+
+h1{
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	padding: auto;
+	margin:auto 35px;
+}
+
+h4 {
+	color:teal;
+	text-align:left;
+	
+}
+
+.news {
+	padding:10px;
+	width:70%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	}
+	
+.titre1 {
+	color:orange;
+	text-align:center;
+	
+	}
+	
+.titre1 p {
+	color:orange;
+}
+header {
+	float:middle;
+	text-align:center;
+	padding:100px;
+	margin:20px auto;
+	border:0px solid green;
+	width:70%;
+	
+	word-spacing:10px;
+	font-size:30px;
+}
+
+header a:link {color: gold;}
+header a:visited {color: gold;}
+header a:hover {color: springgreen;}
+header a:active {color: green;} 
+
+
+.titre3{
+	text-align:left;
+	padding:0px;
+	width:100%;
+	border: 0px solid #1F1F1F;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+}

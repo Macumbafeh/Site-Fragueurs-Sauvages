@@ -1,0 +1,154 @@
+
+
+html {
+	height: 100%;
+}
+
+body {
+	position:relative;
+	padding:0 0;
+	margin:0 0;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+	background:url(images/244358.jpg) no-repeat;
+	background-size:cover;   z-index:-1;min-height: 100%;
+	background-attachment:fixed;
+	}
+
+	p {
+		color:white;
+		text-align:center;
+	}
+header li {
+	color:white;
+	text-align:left;
+	
+}
+
+header{
+	text-align:center;
+	height:0%;
+	padding:0;
+	width:90%;
+	border: 0px solid white;
+	margin:0px auto;
+
+
+
+}
+
+h1 {
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	padding: auto;
+	margin:auto 35px;
+	word-spacing:10px;
+	font-size:40px;
+
+}
+
+
+	
+.news {
+	padding:10px;
+	width:70%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	 opacity:0.9;
+	}
+	
+h2 {
+	color:orange;
+	text-align:center;
+	
+	}
+	
+.red {
+	color:red;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.purple {
+	color:purple;
+}
+
+.blue {
+	color:blue;
+}
+
+.cyan {
+	color:cyan;
+}
+
+.green {
+	color:green;
+}
+
+.gold {
+	color:gold;
+}
+
+.grey {
+	color:grey;
+}
+
+.brown {
+	color:brown;
+}
+
+.pink {
+	color:pink;
+}
+
+.silver {
+	color:silver;
+}
+
+.violet {
+	color:violet;
+}
+
+.orange {
+	color:orange;
+}
+
+.black {
+	color:black;
+}
+
+.white {
+	color:white;
+}
+
+.teal {
+	color:teal;
+}
+
+.titre3{
+	text-align:left;
+	padding:0px;
+	width:100%;
+	border: 0px solid #1F1F1F;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+}
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	box-sizing: border-box;
+	 opacity:1;
+	}

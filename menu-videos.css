@@ -1,0 +1,338 @@
+﻿
+
+/*header { 
+	background-image: url(http://img11.hostingpics.net/pics/766172logogif.gif); 
+	background-repeat: no-repeat; 194067_full.jpg no-repeat;
+	background-size:cover;
+	}*/
+
+.titre1 p {
+	color:orange;
+	text-align:center;
+	
+}
+
+p {
+	color:white;
+	text-align:center;
+	word-wrap: break-word;
+}
+	
+h4 {
+	color:teal;
+	text-align:center;
+	font-size:20px;
+	
+}
+
+header li {
+	color:white;
+	text-align:left;
+}
+.news {
+	padding:10px;
+	width:390px;
+	height:360px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	display:inline-block;
+	text-align:center;
+	list-style-type: none;
+	box-sizing: border-box;
+	}
+		
+.news img {
+	overflow:auto;
+	
+}	
+
+.news2 {
+	padding:10px;
+	
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	display:inline-block;
+	text-align:center;
+	list-style-type: none;
+	box-sizing: border-box;
+	}
+		
+.para2 {
+	
+	
+}
+
+	
+html {
+	height: 100%;
+}
+
+	
+body{
+	position:relative;
+	padding:0 0;
+	margin:0 0;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+	background:url(images/196720.jpg) no-repeat;
+	background-size:cover; z-index:-1;min-height: 100%;
+	background-attachment:fixed;
+}
+
+
+body a:active {
+	opacity:0.3;
+}
+
+
+/*color:#AAFFAA;*/
+
+h1, h2 {
+	color:orange;
+	text-shadow:3px 2px 4px black;
+}
+
+h1{
+	
+	word-spacing:10px;
+	font-weight:bold;
+	font-size:40px;
+}
+
+
+h2{
+	width:100%;
+	padding:0 auto;
+	margin:10px auto;
+	word-spacing:3px;
+	white-space: nowrap;
+	min-width:75%;
+	word-wrap: break-word;
+}
+
+.titre2 { /* position du text arene ect...*/
+	display:inline-block;
+	padding:10px;
+	width:30%;
+	border:0px solid white;
+	margin:0;
+	text-align:center;
+	list-style-type: none;
+	box-sizing: border-box;
+	min-width:20%;
+	
+}
+header {
+	
+	text-align:center;
+	padding:0 auto;
+	width:90%;
+	border: 0px solid white;
+	margin:0px auto;
+	opacity:0.9;
+}
+
+
+
+.talent img {
+	background-position:50% 0%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	box-shadow:1px 1px 20px white;
+	border: 1px solid grey;
+	width:350px;
+	height:280px;
+	padding:auto;
+	margin:0 auto;
+	
+	background-size:cover;
+	
+
+	}
+	
+}
+
+.image-orixas { /* image */
+	background-position:50% 0%;
+	background:url(images/orixas.png) center no-repeat;
+	background-size:cover;
+	width:150px;
+	height:120px;
+	
+	-moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+	border:1px solid gold;
+	padding:0;
+	margin:0 auto;
+	}
+
+.image-ninastine {
+	background-position:50% 0%;
+	background:url(images/ninastine.gif) center no-repeat;
+	background-size:cover;
+	width:150px;
+	height:120px;
+	-moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+	border:1px solid gold;
+	padding:0;
+	margin:0 auto;
+} 
+
+.image-dorlisheim {
+	background-position:50% 10%;
+	background:url(images/md-question-mark-green-.png) center no-repeat;
+	width:100%;
+	height:120px;
+			
+}
+
+.image-zelgur {
+	background-position:50% 10%;
+	background:url(images/md-question-mark-green-.png) center no-repeat;
+	width:100%;
+	height:120px;
+		
+}
+
+.image-korzan {
+	background-position:50% 10%;
+	background:url(images/md-question-mark-green-.png) center no-repeat;
+	width:100%;
+	height:120px;
+			
+}
+
+.image-skyyzo { 
+	background-position:50% 0%;
+	background:url(images/skyyzo.gif) center no-repeat;
+	background-size:cover;
+	width:150px;
+	height:120px;
+	
+	-moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+	border:1px solid gold;
+	padding:0;
+	margin:0 auto;
+	}
+
+.image-tyrosh {
+	
+	background-position:50% 0%;
+	background:url(images/tyrosh.gif) center no-repeat;
+	background-size:cover;
+	width:150px;
+	height:120px;
+	
+	-moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+	border:1px solid gold;
+	padding:0;
+	margin:0 auto;
+}
+	
+.titre-GM {
+	color:gold;
+	font-size:25px;
+	border:0px solid gold;
+}
+
+.titre1 {
+	text-align:center;
+	padding:0px;
+	width:100%;
+	border:0px solid none;
+	margin:50px auto;
+}
+
+center {
+	float:middle;
+	height:100%;
+	padding:0;
+	width:100%;
+	border: 1px solid brown;
+	margin:0px auto;
+}
+
+.cache {
+	text-indent: -9999px
+}
+
+p{
+	
+	text-align:center;
+}
+
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.9;
+	box-sizing: border-box;
+	}
+
+.titre3{
+	text-align:left;
+	padding:0px;
+	width:100%;
+	border: 0px solid #1F1F1F;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+	
+}
+
+
+/*
+#bordure .w1 {
+	background-image:url(http://img15.hostingpics.net/pics/39028132299worldofwarcraftthehordehordebattlegroundentrancewallpaper.jpg) no-repeat bottom left,url(features.png) no-repeat top left #0f130e;
+	overflow:hidden;
+	padding:100px 0;
+	background-size: cover;	
+}
+*/
+
+/*--------- Lightbox -----------*/
+
+
+#lightboxDetails{
+    font-size: 0.9em;
+    color: #555;
+    padding-top: 0.5em;
+} 
+
+#lightboxCaption{ float: left; }
+
+#keyboardMsg{ float: right; }
+
+#lightbox img{ border: none; } 
+
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(/lightbox/overlay.png); }
+
+* html #overlay{ /*Hack IE */
+    background-color: #000;
+    background-color: transparent;
+    background-image: url(blank.gif);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/lightbox/overlay.png", sizingMethod="scale");
+}
+/*-------- fin lightbox -------*/

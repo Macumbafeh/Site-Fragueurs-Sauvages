@@ -1,0 +1,113 @@
+nav ul { /* la barre de menu */
+	list-style-type: none;  /*retire les puces--*/
+	margin:auto auto;
+	padding: 6px 0; 
+	display: inline-block;
+	}
+
+nav li{ /* petite barre a l'interieur du menu entre les mots */
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	width: 140px;
+	background-color:#191919;
+	line-height:50px;
+	font-family:Lucida Calligraphy, Times new roman, Ebrima,Tahoma;
+	 
+	}
+
+
+	
+nav li a{ /* cible les liens*/
+	display: block;
+	width:120px;
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	opacity:0.5;
+	padding:0px;
+	
+}
+
+nav li a:hover{ /* changement quand on passe la souris dessus */
+	color:gold;
+	opacity:1;
+	border-radius: 60px;
+	background-color:maroon;
+	width:120px;
+	-moz-transition: .2s all .0s;
+	-webkit-transition: .2s all .0s;
+	transition: .2s all .0s;
+}
+
+nav ul li ul{
+	display:none;
+	
+		
+}
+
+nav ul li:hover ul { /* menu déroulant*/
+	display:block;
+	visibility:visible;
+	}
+
+nav li:hover ul li { /* cadre du menu déroulant*/
+	float:none;
+	width:auto;
+	
+}
+
+nav li:hover ul li a{ /* largeur du cadre pour le texte*/
+	width:auto;
+	
+}
+
+nav li ul{
+	position:absolute;
+	
+}
+
+nav {
+	text-align:center;	
+	background:#191919;
+	margin:0px 0px;
+	padding:0px 0px;
+	
+}
+
+nav li:hover .submenu1 li { /* cadre du menu déroulant*/
+	float:none;
+	width:120px;
+}
+
+nav li:hover .submenu1 li a{ /* largeur du cadre pour le texte*/
+	width:120px;
+}	
+
+nav li:hover .submenu2 li { /* cadre du menu déroulant*/
+	float:none;
+	width:230px;
+}
+
+nav li:hover .submenu2 li a{ /* largeur du cadre pour le texte*/
+	width:230px;
+}	
+
+nav li:hover .submenu3 li { /* cadre du menu déroulant*/
+	float:none;
+	width:170px;
+}
+
+nav li:hover .submenu3 li a{ /* largeur du cadre pour le texte*/
+	width:170px;
+}	
+
+nav li:hover .submenu4 li { /* cadre du menu déroulant*/
+	float:none;
+	width:310px;
+}
+
+nav li:hover .submenu4 li a{ /* largeur du cadre pour le texte*/
+	width:310px;
+}	
+
