@@ -1,0 +1,1043 @@
+﻿html {
+	height: 100%;
+}
+
+	
+body{
+	position:relative;
+	padding:0 0;
+	margin:0 0;
+	font-family:Dosis,, Verdana, Calibri, sans-serif;
+	background:black;
+	min-height: 100%;
+	
+}
+
+.metier img {
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	width:228px;
+	height:262px;
+	}
+
+.metier2 img {
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	width:50px;
+	height:50px;
+	border: 0px solid orange;
+}
+
+.metier2 a {
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+
+.metier2 a:hover {
+	color: teal;
+}
+
+.metier2 p {
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	width:900px;
+	padding: auto;
+	margin:35px auto;
+	word-spacing:10px;
+	font-size:40px;
+	
+}
+	
+.sort img {
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	box-shadow:1px 1px 10px black;
+	border: 1px solid grey;
+	width:30px;
+	height:30px;
+	}
+	
+	
+.talent img {
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	box-shadow:1px 1px 10px black;
+	border: 1px solid grey;
+	width:519px;
+	height:372px;
+	padding:auto;
+	margin:auto;
+	margin-left:22%;
+	
+}
+
+.talent2 img {
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	box-shadow:1px 1px 10px black;
+	border: 1px solid grey;
+	width:640px;
+	height:483px;
+	padding:auto;
+	margin:auto;
+	margin-left:15%;
+	
+}
+.choix img {
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	box-shadow:1px 1px 10px black;
+	border: 1px solid grey;
+	width:40px;
+	height:30px;
+}
+
+.chama {
+	background:url(chaman/wow__shaman_by_dwindlekin-d9lfdfv.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.chamele {
+	background:url(chaman/chamy.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.chameli {
+	background:url(chaman/861256a07b50dc6304fad301c2ca1bb6.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.chamhea {
+	background:url(chaman/ekidna___shaman_resto_by_devilbaby89-d48fh2a.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+	}
+
+.chasseu {
+	background:url(chasseur/wow__hunter_by_dwindlekin-d9kwlxo.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.B {
+	background:url(chasseur/wow-night-elf-hunter-1600x900.jpg) 0 0 no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.prec {
+	background:url(chasseur/104000.jpg) 0 0 no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.survi {
+	background:url(chasseur/984.jpg) 0 0 no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	min-height: 100%;
+}
+
+.demonist {
+	background:url(demoniste/wow__warlock_by_dwindlekin-d9kdh3w.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.affl {
+	background:url(demoniste/fanart-0908-full.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.demon {
+	background:url(demoniste/X27PjjN.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.destr {
+	background:url(demoniste/UtboQhC.jpg) 0 0 no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.druid {
+	background:url(druide/wow__druid_by_dwindlekin-d9l25xo.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.equ {
+	background:url(druide/wow_druid_world_of_warcraft_95365_1920x1080.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.D {
+	background:url(druide/Druid.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.fera {
+	background:url(druide/world-of-warcraft-wallpaper-druid-wallpaper-4.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.guerrie {
+	background:url(guerrier/wow__warrior_by_dwindlekin-d9jwl53.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+
+
+.arme {
+	background:url(guerrier/0db947e2d3a339b16629abae4904d305.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+
+
+.fureu {
+	background:url(guerrier/84498.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.wartan {
+	background:url(guerrier/tauren_warrior_tank_lipio__by_nekokawai-d6r4x28.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.mag {
+	background:url(mage/wow__mage_by_dwindlekin-d9l5gbg.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.arcane {
+	background:url(mage/Hearthstone_Mage_-Wallpaper.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.fe {
+	background:url(mage/5327-world-of-warcraft-wallpapers-games-wallpaper.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.givr {
+	background:url(mage/EoxwN2p.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+.paladi {
+	background:url(paladin/wow__paladin_by_dwindlekin-d9jsirt.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.Hpa {
+	background:url(paladin/XBeIc9g.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.paltan {
+	background:url(paladin/blood-elf-paladin-WOW.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.re {
+	background:url(paladin/244358.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.mageladi {
+	background:url(paladin/635380854005773690.jpeg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.pretr {
+	background:url(pretre/wow__priest_by_dwindlekin-d9kfnuz.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.heale {
+	background:url(pretre/vT3End0.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.disc {
+	background:url(pretre/yucpeET.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+
+.S {
+	background:url(pretre/healer-battleground.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.voleu {
+	background:url(voleur/wow__rogue_by_dwindlekin-d9lgx2i.png) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.ass {
+	background:url(voleur/950698154712.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.comba {
+	background:url(voleur/cropped-1920-1080-379135.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.finess {
+	background:url(voleur/world-of-warcraft-rogue-hd-online-449183.jpg) center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.entete {
+	background:url(26926-nagrand-world-of-warcraft-1280x800-game-wallpaper.jpg) center center no-repeat;
+	background-size:cover; background-attachment:fixed;
+	border:1px solid black;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+/*color:#AAFFAA;*/
+
+.image1 {
+	
+    position: relative;
+	border:0px solid teal;
+	padding:0 0;
+	width:23%;
+	height: 100px;
+	margin:0px 0;
+	border:0px solid orange;
+	
+}
+
+.image1 img {
+	position: absolute;
+    margin:auto 35px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    max-width: 120px;
+	padding:0;
+	border:0px solid orange;
+}
+
+
+
+.image1 h5 {
+	position:absolute;
+	text-align:left;
+	color:gold;
+	word-wrap: break-word;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	list-style-type: none;
+	text-decoration:none;
+	margin:auto 20px;
+	padding:0 0;
+}
+
+
+
+p {
+	text-align:center;
+	color:white;
+	word-wrap: break-word;
+}	
+
+dl, dd {
+	color:white;
+}
+
+dt {
+	color:red;
+}
+
+header li {
+	color:white;
+	text-align:left;
+}
+
+
+
+header a img {
+	width:100px;
+	height:70px;
+	padding:0px;
+	margin:0px;
+	border:0px solid orange;
+}
+
+
+
+h1{
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	width:1100px;
+	padding: auto;
+	margin:35px auto;
+	word-spacing:10px;
+	font-size:40px;
+	
+}
+
+h10 {
+	color:orange;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	border:0px solid orange;
+	width:900px;
+	padding: auto;
+	margin:35px auto;
+	word-spacing:10px;
+	font-size:40px;
+	}
+
+
+h10 a{
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+h1 img {
+	width:140px;
+	height:150px;
+	
+}
+
+h1 a {
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+
+h1 a:hover {
+	color: teal;
+}
+
+h2 {
+	color:green;
+	text-align:center;
+	text-shadow:3px 2px 4px black;
+	padding: auto;
+	margin:auto 35px;
+	word-spacing:5px;
+	font-size:25px;
+	
+}
+
+h3 {
+	text-align:center;
+	padding: auto;
+	margin:auto;
+	word-spacing:5px;
+}
+
+h4 {
+	color:teal;
+	text-align:center;
+	font-size:30px;
+	
+}
+
+.news {
+	padding:20px;
+	width:900px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	
+	}
+	
+	
+.news2 {
+	padding:20px;
+	width:350px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	text-align: center;
+	}
+	
+.news3 {
+	padding:20px;
+	width:900px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:50px auto;
+	background:#101010;
+	text-align: center;
+	}
+	
+.macro {
+	padding:20px;
+	width:50%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid orange;
+	margin:5px auto;
+	background:#101010;
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+
+
+	
+.news2 a {
+	display:inline-block;
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+
+
+	
+.spé img {
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	box-shadow:1px 1px 10px black;
+	border: 2px solid grey;
+	width:56px;
+	height:56px;
+	}
+	
+	
+.spé a {
+	display:inline-block;
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+}
+
+
+	
+.news a {
+	list-style-type: none;
+	text-decoration:none;
+	color:orange;
+	
+}
+	
+	
+
+.titre1 p {
+	color:orange;
+	text-align:center;
+	
+	}
+	
+.titre1 p {
+	color:orange;
+}
+
+header {
+	float:middle;
+	text-align:center;
+	padding:0;
+	margin:50px auto;
+	border:0px solid green;
+	width:100%;
+	border-style:double;
+	
+	
+}
+
+header a:link {color: gold;}
+header a:visited {color: gold;}
+header a:hover {color: teal;}
+header a:active {color: green;} 
+
+.chaman a:link {color: gold;}
+.chaman a:visited {color: gold;}
+.chaman a:hover {color: teal;}
+.chaman a:active {color: green;} 
+
+.chamelem a:link {color: gold;}
+.chamelem a:visited {color: gold;}
+.chamelem a:hover {color: teal;}
+.chamelem a:active {color: green;} 
+
+.chamelio a:link {color: gold;}
+.chamelio a:visited {color: gold;}
+.chamelio a:hover {color: teal;}
+.chamelio a:active {color: green;} 
+
+.chamheal a:link {color: gold;}
+.chamheal a:visited {color: gold;}
+.chamheal a:hover {color: teal;}
+.chamheal a:active {color: green;} 
+
+.chasseur a:link {color: gold;}
+.chasseur a:visited {color: gold;}
+.chasseur a:hover {color: teal;}
+.chasseur a:active {color: green;} 
+
+.BM a:link {color: gold;}
+.BM a:visited {color: gold;}
+.BM a:hover {color: teal;}
+.BM a:active {color: green;} 
+
+.preci a:link {color: gold;}
+.preci a:visited {color: gold;}
+.preci a:hover {color: teal;}
+.preci a:active {color: green;} 
+
+.survie a:link {color: gold;}
+.survie a:visited {color: gold;}
+.survie a:hover {color: teal;}
+.survie a:active {color: green;} 
+
+.demoniste a:link {color: gold;}
+.demoniste a:visited {color: gold;}
+.demoniste a:hover {color: teal;}
+.demoniste a:active {color: green;} 
+
+.affli a:link {color: gold;}
+.affli a:visited {color: gold;}
+.affli a:hover {color: teal;}
+.affli a:active {color: green;} 
+
+.demono a:link {color: gold;}
+.demono a:visited {color: gold;}
+.demono a:hover {color: teal;}
+.demono a:active {color: green;} 
+
+.destru a:link {color: gold;}
+.destru a:visited {color: gold;}
+.destru a:hover {color: teal;}
+.destru a:active {color: green;} 
+
+.druide a:link {color: gold;}
+.druide a:visited {color: gold;}
+.druide a:hover {color: teal;}
+.druide a:active {color: green;} 
+
+.equi a:link {color: gold;}
+.equi a:visited {color: gold;}
+.equi a:hover {color: teal;}
+.equi a:active {color: green;} 
+
+.DH a:link {color: gold;}
+.DH a:visited {color: gold;}
+.DH a:hover {color: teal;}
+.DH a:active {color: green;} 
+
+.feral a:link {color: gold;}
+.feral a:visited {color: gold;}
+.feral a:hover {color: teal;}
+.feral a:active {color: green;} 
+
+.guerrier a:link {color: gold;}
+.guerrier a:visited {color: gold;}
+.guerrier a:hover {color: teal;}
+.guerrier a:active {color: green;} 
+
+.armes a:link {color: gold;}
+.armes a:visited {color: gold;}
+.armes a:hover {color: teal;}
+.armes a:active {color: green;} 
+
+.fureur a:link {color: gold;}
+.fureur a:visited {color: gold;}
+.fureur a:hover {color: teal;}
+.fureur a:active {color: green;}
+
+.wartank a:link {color: gold;}
+.wartank a:visited {color: gold;}
+.wartank a:hover {color: teal;}
+.wartank a:active {color: green;}
+
+.mage a:link {color: gold;}
+.mage a:visited {color: gold;}
+.mage a:hover {color: teal;}
+.mage a:active {color: green;} 
+
+.arcanes a:link {color: gold;}
+.arcanes a:visited {color: gold;}
+.arcanes a:hover {color: teal;}
+.arcanes a:active {color: green;}
+
+.feu a:link {color: gold;}
+.feu a:visited {color: gold;}
+.feu a:hover {color: teal;}
+.feu a:active {color: green;}
+
+.givre a:link {color: gold;}
+.givre a:visited {color: gold;}
+.givre a:hover {color: teal;}
+.givre a:active {color: green;}
+
+.paladin a:link {color: gold;}
+.paladin a:visited {color: gold;}
+.paladin a:hover {color: teal;}
+.paladin a:active {color: green;} 
+
+.mageladin a:link {color: gold;}
+.mageladin a:visited {color: gold;}
+.mageladin a:hover {color: teal;}
+.mageladin a:active {color: green;}
+
+.paltank a:link {color: gold;}
+.paltank a:visited {color: gold;}
+.paltank a:hover {color: teal;}
+.paltank a:active {color: green;}
+
+.Hpal a:link {color: gold;}
+.Hpal a:visited {color: gold;}
+.Hpal a:hover {color: teal;}
+.Hpal a:active {color: green;}
+
+.ret a:link {color: gold;}
+.ret a:visited {color: gold;}
+.ret a:hover {color: teal;}
+.ret a:active {color: green;}
+
+.pretre a:link {color: gold;}
+.pretre a:visited {color: gold;}
+.pretre a:hover {color: teal;}
+.pretre a:active {color: green;} 
+
+.disci a:link {color: gold;}
+.disci a:visited {color: gold;}
+.disci a:hover {color: teal;}
+.disci a:active {color: green;}
+
+.SP a:link {color: gold;}
+.SP a:visited {color: gold;}
+.SP a:hover {color: teal;}
+.SP a:active {color: green;}
+
+.healer a:link {color: gold;}
+.healer a:visited {color: gold;}
+.healer a:hover {color: teal;}
+.healer a:active {color: green;}
+
+.voleur a:link {color: gold;}
+.voleur a:visited {color: gold;}
+.voleur a:hover {color: teal;}
+.voleur a:active {color: green;} 
+
+.assa a:link {color: gold;}
+.assa a:visited {color: gold;}
+.assa a:hover {color: teal;}
+.assa a:active {color: green;}
+
+.combat a:link {color: gold;}
+.combat a:visited {color: gold;}
+.combat a:hover {color: teal;}
+.combat a:active {color: green;}
+
+.finesse a:link {color: gold;}
+.finesse a:visited {color: gold;}
+.finesse a:hover {color: teal;}
+.finesse a:active {color: green;}
+
+.pageancre {
+	text-align:right;
+}
+
+.pageancre img {
+	margin:-10px auto;
+	
+    padding:0px auto;
+	border:0px solid orange;
+}
+
+.titre3{
+	
+	padding:0px;
+	width:100%;
+	border: 0px solid red;
+	margin:0px auto;
+	color:white;
+    opacity:0.5;
+}
+
+footer {
+	background:#1F1F1F;
+	padding:0;
+	margin:0px auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.9;
+	box-sizing: border-box;
+	border: 0px solid blue;
+	}
+
+.red {
+	color:red;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.purple {
+	color:purple;
+}
+
+.blue {
+	color:blue;
+}
+
+.cyan {
+	color:cyan;
+}
+
+.green {
+	color:green;
+}
+
+.gold {
+	color:gold;
+}
+
+.grey {
+	color:grey;
+}
+
+.brown {
+	color:brown;
+}
+
+.pink {
+	color:pink;
+}
+
+.silver {
+	color:silver;
+}
+
+.violet {
+	color:violet;
+}
+
+.orange {
+	color:orange;
+}
+
+.black {
+	color:black;
+}
+
+.white {
+	color:white;
+}
+
+.teal {
+	color:teal;
+}
+
+.indigo {
+	color:indigo;
+}
+
+.navy {
+	color:navy;
+}
+
+.bleunuit {
+	color:#1560BD;
+}
+
+.raw {
+	color:#BDBDBD;
+}
+
+.bleuclair {
+	color:#3C99C8;
+}
+
+/*--------- Lightbox -----------*/
+
+
+#lightboxDetails{
+    font-size: 0.9em;
+    color: #555;
+    padding-top: 0.5em;
+} 
+
+#lightboxCaption{ float: left; }
+
+#keyboardMsg{ float: right; }
+
+#lightbox img{ border: none; } 
+
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(/lightbox/overlay.png); }
+
+* html #overlay{ /*Hack IE */
+    background-color: #000;
+    background-color: transparent;
+    background-image: url(blank.gif);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/lightbox/overlay.png", sizingMethod="scale");
+}
+/*-------- fin lightbox -------*/
