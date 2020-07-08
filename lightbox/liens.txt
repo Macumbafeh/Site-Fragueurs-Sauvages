@@ -1,0 +1,6 @@
+http://ddata.over-blog.com/xxxyyy/0/02/10/83/loading.gif
+
+http://ddata.over-blog.com/xxxyyy/0/02/10/83/close.gif
+
+var loadingImage = './lightbox/loading.gif';		
+var closeButton = './lightbox/close.gif';
